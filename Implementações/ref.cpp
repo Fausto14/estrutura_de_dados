@@ -17,13 +17,11 @@ int main(void)
   int numero;
   printf("Digite um numero: ");
   scanf("%d", &numero);  
-     
   printf("O numero digitado foi: %d \n",numero);  
-  
   soma10(numero);  //chamada da função
   printf("Agora o numero vale: %d \n",numero);    
-  
   soma10p(&numero);  //chamada da função com ponteiro como parâmetro
   printf("Agora o numero vale: %d \n",numero);  
   return 0;
 }
+
