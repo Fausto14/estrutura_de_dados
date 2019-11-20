@@ -8,6 +8,7 @@ struct elemento{
     struct aluno dados;
     struct elemento *prox;
 };
+//facilitar as manipulações dentro das implementações
 typedef struct elemento Elem;
 
 Lista* cria_lista(){
